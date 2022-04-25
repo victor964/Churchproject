@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.dailyVerses.bibleVerse a
+{
+    font-weight:bold;
+}
+
+.dailyVerses.linkToWebsite a
+{
+	opacity:0.6;
+	font-size:12px;
+	text-decoration:none;
+}

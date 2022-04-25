@@ -1,0 +1,18 @@
+[10/Apr/2022:06:42:48] (I): WordPress Instance Info:
+[10/Apr/2022:06:42:48] (I): Home URL : http://localhost/wordpress
+[10/Apr/2022:06:42:48] (I): Site URL : http://localhost/wordpress
+[10/Apr/2022:06:42:48] (I): WordPress Version : 5.9.3
+[10/Apr/2022:06:42:48] (I): Onboarding Version : 1.1.21
+[10/Apr/2022:06:42:48] (I): Multisite : No
+[10/Apr/2022:06:42:48] (I): Server Info : Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.11
+[10/Apr/2022:06:42:48] (I): PHP Version : 8.0.11
+[10/Apr/2022:06:42:48] (I): HTTPS : No
+[10/Apr/2022:06:42:48] (I): PHP Max Execution Time : 120
+[10/Apr/2022:06:42:48] (I): PHP Max Input Vars : 1000
+[10/Apr/2022:06:42:48] (I): Max Upload Size : 41943040
+[10/Apr/2022:06:42:48] (I): Plugins:
+[10/Apr/2022:06:42:48] (I): [PLUGIN] Starter Templates : v3.1.7 (Brainstorm Force)
+[10/Apr/2022:06:42:48] (I): [PLUGIN] Elementor : v3.6.2 (Elementor.com)
+[10/Apr/2022:06:42:48] (I): [PLUGIN] Stratum - Elementor Widgets : v1.3.13 (MotoPress)
+[10/Apr/2022:06:42:48] (I): [PLUGIN] Templates Patterns Collection : v1.1.21 (ThemeIsle)
+[10/Apr/2022:06:42:48] (I): [PLUGIN] WunderWP : v1.6.0 (Artbees)

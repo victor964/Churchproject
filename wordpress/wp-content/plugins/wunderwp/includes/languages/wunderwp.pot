@@ -1,0 +1,288 @@
+# Copyright (C) 2020 WunderWP
+# This file is distributed under the same license as the WunderWP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WunderWP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Artbees <info@artbees.net>\n"
+"Last-Translator: Artbees Team <info@artbees.net>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wunderwp.php:389
+msgid "Delete"
+msgstr ""
+
+#: wunderwp.php:390
+msgid "Cancel"
+msgstr ""
+
+#: wunderwp.php:391
+msgid "Deleting"
+msgstr ""
+
+#: wunderwp.php:393
+msgid "Do you want to delete this preset?"
+msgstr ""
+
+#: wunderwp.php:394
+msgid "Unable to delete preset, please try again."
+msgstr ""
+
+#: wunderwp.php:395
+msgid "Haven't Connected Yet?"
+msgstr ""
+
+#: wunderwp.php:396
+msgid "Please connect to WunderWP to save your templates."
+msgstr ""
+
+#: wunderwp.php:397, includes/connect/class.php:322
+msgid "Connect with WunderWP"
+msgstr ""
+
+#: wunderwp.php:449, includes/feedback-notification-bar/class.php:85
+msgid "WunderWP"
+msgstr ""
+
+#: wunderwp.php:458, includes/core/preset.php:96
+msgid "Sync"
+msgstr ""
+
+#: wunderwp.php:462
+msgid "Presets Library"
+msgstr ""
+
+#: wunderwp.php:465
+msgid "Sync All Presets"
+msgstr ""
+
+#: wunderwp.php:466
+msgid "WunderWP Preset Library gets updated automatically only once a day. You can also manually update it by clicking the Sync All Presets button."
+msgstr ""
+
+#: wunderwp.php:493
+msgid "library field is missing"
+msgstr ""
+
+#: wunderwp.php:515
+msgid "Invalid library value received."
+msgstr ""
+
+#: includes/api.php:176, includes/api.php:213, includes/api.php:250, includes/api.php:288
+msgid "You're not connected with WunderWP. Please"
+msgstr ""
+
+#: includes/api.php:178, includes/api.php:215, includes/api.php:252, includes/api.php:290
+msgid "connect with WunderWP"
+msgstr ""
+
+#: includes/connect/class.php:254
+msgid "Get started with %s"
+msgstr ""
+
+#: includes/connect/class.php:257
+msgid "Once you connect to %s cloud, you will be able to save and load custom preset styles throughout your websites. We will securely connect your website."
+msgstr ""
+
+#: includes/connect/class.php:262
+msgid "Connect with %s"
+msgstr ""
+
+#: includes/connect/class.php:267
+msgid "Status: %s"
+msgstr ""
+
+#: includes/connect/class.php:268
+msgid "You are connected as <strong>%s</strong>. If you need to switch the connected account, try to disconnect then reconnect."
+msgstr ""
+
+#: includes/connect/class.php:269
+msgid "Disconnect"
+msgstr ""
+
+#: includes/connect/class.php:314
+msgid "In order to save your Elementor styles and templates into WunderWP, you need to connect your site to WunderWP cloud. It's easy and secure!"
+msgstr ""
+
+#: includes/controls/custom-presets.php:57
+msgid "New Preset"
+msgstr ""
+
+#: includes/core/custom-preset.php:72, includes/core/custom-preset.php:78
+msgid "Unable to store preset"
+msgstr ""
+
+#: includes/core/custom-preset.php:100
+msgid "Site is not connected."
+msgstr ""
+
+#: includes/core/custom-preset.php:104
+msgid "element field is missing"
+msgstr ""
+
+#: includes/core/custom-preset.php:126, includes/core/custom-preset.php:132
+msgid "Unable to fetch presets."
+msgstr ""
+
+#: includes/core/custom-preset.php:156
+msgid "id field is missing"
+msgstr ""
+
+#: includes/core/custom-preset.php:160
+msgid "element_type field is missing"
+msgstr ""
+
+#: includes/core/custom-preset.php:178, includes/core/custom-preset.php:184
+msgid "Unable to delete preset."
+msgstr ""
+
+#: includes/core/preset.php:96
+msgid "Sync Presets"
+msgstr ""
+
+#: includes/core/preset.php:106, includes/template-library/sources/pre-made.php:43
+msgid "Pre-made"
+msgstr ""
+
+#: includes/core/preset.php:123, includes/template-library/sources/custom.php:23
+msgid "Custom"
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "Note: "
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "After applying preset if you don't see the expected result then it's possibily due to the settings that are database dependent."
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "e.g. If you apply preset in "
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "Elementor > Image Gallery "
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "element you have to manually remove & add the images or in case of "
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "Raven > Categories "
+msgstr ""
+
+#: includes/core/preset.php:143
+msgid "element you have to change source & specific categories settings."
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:90
+msgid "How do you like WunderWP?"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:92
+msgid "Liked it"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:93
+msgid "Disliked it"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:98
+msgid "Please help us by rating WunderWP"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:100
+msgid "Rate WunderWP"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:101, includes/feedback-notification-bar/class.php:109
+msgid "Discard"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:106
+msgid "Would you like to share the problem with us?"
+msgstr ""
+
+#: includes/feedback-notification-bar/class.php:108
+msgid "Contact support"
+msgstr ""
+
+#: includes/template-library/class.php:476
+msgid "Post not found."
+msgstr ""
+
+#: includes/template-library/class.php:555
+msgid "Save to WunderWP"
+msgstr ""
+
+#: includes/template-library/class.php:560
+msgid "Delete from WunderWP"
+msgstr ""
+
+#: includes/template-library/templates.php:31
+msgid "Favorite"
+msgstr ""
+
+#: includes/template-library/templates.php:51
+msgid "Show all the templates"
+msgstr ""
+
+#: includes/template-library/templates.php:51
+msgid "All"
+msgstr ""
+
+#: includes/template-library/templates.php:53
+msgid "Show the templates in which only 'Elementor' elements are used."
+msgstr ""
+
+#: includes/template-library/templates.php:53
+msgid "Elementor"
+msgstr ""
+
+#: includes/template-library/templates.php:55
+msgid "Show the templates in which 'Elementor Pro' elements are used."
+msgstr ""
+
+#: includes/template-library/templates.php:55
+msgid "Elementor Pro"
+msgstr ""
+
+#: includes/template-library/templates.php:74
+msgid "Search Templates:"
+msgstr ""
+
+#: includes/template-library/templates.php:75
+msgid "Search"
+msgstr ""
+
+#: includes/template-library/templates.php:83
+msgid "Name"
+msgstr ""
+
+#: includes/template-library/templates.php:87
+msgid "Type"
+msgstr ""
+
+#: includes/template-library/templates.php:91
+msgid "Created By"
+msgstr ""
+
+#: includes/template-library/templates.php:95
+msgid "Creation Date"
+msgstr ""
+
+#: includes/template-library/templates.php:98
+msgid "Actions"
+msgstr ""
+
+#: includes/template-library/templates.php:106
+msgid "Stay tuned! More awesome templates coming real soon."
+msgstr ""

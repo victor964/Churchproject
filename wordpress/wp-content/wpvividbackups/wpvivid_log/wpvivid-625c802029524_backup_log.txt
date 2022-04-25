@@ -1,0 +1,243 @@
+Log created: 2022-04-17 21:01:20
+Type: backup
+[2022-04-17 21:01:26][notice]Start backing up.
+[2022-04-17 21:01:26][notice]server info fcgi:Off max execution time: 900 wp version:5.9.3 php version:8.0.11 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:80.79 MB memory_get_peak_usage:82.47 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-04-17 21:01:26][notice]Prepare to backup backup_db files.
+[2022-04-17 21:01:26][notice]Start exporting database.
+[2022-04-17 21:01:29][notice]max_allowed_packet less than 32M :1.00 MB
+[2022-04-17 21:01:31][notice]Preparing to dump table wp_actionscheduler_actions
+[2022-04-17 21:01:31][notice]Preparing to dump table wp_actionscheduler_claims
+[2022-04-17 21:01:31][notice]Preparing to dump table wp_actionscheduler_groups
+[2022-04-17 21:01:31][notice]Preparing to dump table wp_actionscheduler_logs
+[2022-04-17 21:01:32][notice]Preparing to dump table wp_commentmeta
+[2022-04-17 21:01:32][notice]Preparing to dump table wp_comments
+[2022-04-17 21:01:32][notice]Preparing to dump table wp_e_events
+[2022-04-17 21:01:32][notice]Preparing to dump table wp_e_submissions
+[2022-04-17 21:01:33][notice]Preparing to dump table wp_e_submissions_actions_log
+[2022-04-17 21:01:33][notice]Preparing to dump table wp_e_submissions_values
+[2022-04-17 21:01:33][notice]Preparing to dump table wp_give_commentmeta
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_comments
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_donationmeta
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_donormeta
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_donors
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_formmeta
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_log
+[2022-04-17 21:01:34][notice]Preparing to dump table wp_give_migrations
+[2022-04-17 21:01:35][notice]Preparing to dump table wp_give_revenue
+[2022-04-17 21:01:35][notice]Preparing to dump table wp_give_sequential_ordering
+[2022-04-17 21:01:35][notice]Preparing to dump table wp_give_sessions
+[2022-04-17 21:01:35][notice]Preparing to dump table wp_give_subscriptionmeta
+[2022-04-17 21:01:35][notice]Preparing to dump table wp_give_subscriptions
+[2022-04-17 21:01:36][notice]Preparing to dump table wp_links
+[2022-04-17 21:01:36][notice]Preparing to dump table wp_options
+[2022-04-17 21:01:37][notice]Preparing to dump table wp_postmeta
+[2022-04-17 21:01:38][notice]Preparing to dump table wp_posts
+[2022-04-17 21:01:39][notice]Preparing to dump table wp_termmeta
+[2022-04-17 21:01:39][notice]Preparing to dump table wp_terms
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_term_relationships
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_term_taxonomy
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_usermeta
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_users
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_wpvivid_scan_result
+[2022-04-17 21:01:40][notice]Preparing to dump table wp_wpvivid_unused_uploads_files
+[2022-04-17 21:01:40][notice]Exporting database finished.
+[2022-04-17 21:01:40][notice]Start compressing backup_db
+[2022-04-17 21:01:42][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_db.zip
+[2022-04-17 21:01:42][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_db.zip, filesize: 14.48 MB
+[2022-04-17 21:01:42][notice]Compressing backup_db completed
+[2022-04-17 21:01:42][notice]Backing up backup_db completed.
+[2022-04-17 21:01:45][notice]Prepare to backup backup_themes files.
+[2022-04-17 21:01:45][notice]File number: 1613
+[2022-04-17 21:01:45][notice]Start compressing backup_themes
+[2022-04-17 21:01:47][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_themes.zip
+[2022-04-17 21:03:11][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_themes.zip, filesize: 37.41 MB
+[2022-04-17 21:03:11][notice]Compressing backup_themes completed
+[2022-04-17 21:03:11][notice]Backing up backup_themes completed.
+[2022-04-17 21:03:18][notice]Prepare to backup backup_plugin files.
+[2022-04-17 21:03:18][notice]File number: 7491
+[2022-04-17 21:03:18][notice]Start compressing backup_plugin
+[2022-04-17 21:03:31][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_plugin.zip
+[2022-04-17 21:07:56][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_plugin.zip, filesize: 164.55 MB
+[2022-04-17 21:07:56][notice]Compressing backup_plugin completed
+[2022-04-17 21:07:56][notice]Backing up backup_plugin completed.
+[2022-04-17 21:07:57][notice]Prepare to backup backup_uploads files.
+[2022-04-17 21:07:57][notice]File number: 167
+[2022-04-17 21:07:57][notice]Start compressing backup_uploads
+[2022-04-17 21:07:57][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_uploads.zip
+[2022-04-17 21:08:03][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_uploads.zip, filesize: 69.39 MB
+[2022-04-17 21:08:03][notice]Compressing backup_uploads completed
+[2022-04-17 21:08:03][notice]Backing up backup_uploads completed.
+[2022-04-17 21:08:03][notice]Prepare to backup backup_content files.
+[2022-04-17 21:08:03][notice]File number: 1
+[2022-04-17 21:08:03][notice]Start compressing backup_content
+[2022-04-17 21:08:03][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_content.zip
+[2022-04-17 21:08:03][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_content.zip, filesize: 432.00 B
+[2022-04-17 21:08:03][notice]Compressing backup_content completed
+[2022-04-17 21:08:03][notice]Backing up backup_content completed.
+[2022-04-17 21:08:09][notice]Prepare to backup backup_core files.
+[2022-04-17 21:08:09][notice]File number: 2386
+[2022-04-17 21:08:09][notice]Start compressing backup_core
+[2022-04-17 21:08:13][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_core.zip
+[2022-04-17 21:09:27][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_core.zip, filesize: 47.35 MB
+[2022-04-17 21:09:27][notice]Compressing backup_core completed
+[2022-04-17 21:09:27][notice]Backing up backup_core completed.
+[2022-04-17 21:09:27][notice]Prepare to backup backup_merge files.
+[2022-04-17 21:09:27][notice]File number: 6
+[2022-04-17 21:09:27][notice]Start compressing backup_merge
+[2022-04-17 21:09:28][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip
+[2022-04-17 21:09:41][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip, filesize: 49.00 MB
+[2022-04-17 21:09:42][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_plugin.zip
+[2022-04-17 21:09:42][notice]Prepare to zip files. file: localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip
+[2022-04-17 21:10:05][notice]Adding zip files completed.localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip, filesize: 106.84 MB
+[2022-04-17 21:10:05][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_uploads.zip
+[2022-04-17 21:10:05][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_core.zip
+[2022-04-17 21:10:05][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_themes.zip
+[2022-04-17 21:10:05][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_db.zip
+[2022-04-17 21:10:05][notice]Cleaned up file, filename: C:\xampp\htdocs\wordpress/wp-content\wpvividbackups\localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_content.zip
+[2022-04-17 21:10:05][notice]Compressing backup_merge completed
+[2022-04-17 21:10:05][notice]Backing up backup_merge completed.
+[2022-04-17 21:10:06][notice]Backup completed.
+[2022-04-17 21:10:06][notice]Backup succeeded.
+[2022-04-17 21:10:06][notice]Start upload.
+[2022-04-17 21:10:07][notice]Check upload folder wpvivid_backup
+[2022-04-17 21:10:12][notice]Start uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip
+[2022-04-17 21:10:12][notice]Check if the server already has the same name file.
+[2022-04-17 21:10:13][notice]Initiate a resumable upload session.
+[2022-04-17 21:10:19][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 1.00 MB speed:149.8kb/s
+[2022-04-17 21:10:26][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 2.00 MB speed:174.76kb/s
+[2022-04-17 21:10:31][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 3.00 MB speed:209.72kb/s
+[2022-04-17 21:10:36][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 4.00 MB speed:209.72kb/s
+[2022-04-17 21:10:43][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 6.00 MB speed:299.59kb/s
+[2022-04-17 21:10:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 7.00 MB speed:209.72kb/s
+[2022-04-17 21:10:52][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 8.00 MB speed:262.14kb/s
+[2022-04-17 21:10:56][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 9.00 MB speed:262.14kb/s
+[2022-04-17 21:11:00][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 10.00 MB speed:262.14kb/s
+[2022-04-17 21:11:05][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 11.00 MB speed:209.72kb/s
+[2022-04-17 21:11:09][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 12.00 MB speed:262.14kb/s
+[2022-04-17 21:11:15][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 13.00 MB speed:174.76kb/s
+[2022-04-17 21:11:21][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 14.00 MB speed:174.76kb/s
+[2022-04-17 21:11:27][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 15.00 MB speed:174.76kb/s
+[2022-04-17 21:11:31][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 16.00 MB speed:262.14kb/s
+[2022-04-17 21:11:40][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 18.00 MB speed:233.02kb/s
+[2022-04-17 21:11:44][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 19.00 MB speed:262.14kb/s
+[2022-04-17 21:11:49][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 20.00 MB speed:209.72kb/s
+[2022-04-17 21:11:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 21.00 MB speed:209.72kb/s
+[2022-04-17 21:12:03][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 23.00 MB speed:262.14kb/s
+[2022-04-17 21:12:07][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 24.00 MB speed:262.14kb/s
+[2022-04-17 21:12:13][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 25.00 MB speed:262.14kb/s
+[2022-04-17 21:12:17][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 26.00 MB speed:262.14kb/s
+[2022-04-17 21:12:21][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 27.00 MB speed:262.14kb/s
+[2022-04-17 21:12:25][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 28.00 MB speed:262.14kb/s
+[2022-04-17 21:12:29][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 29.00 MB speed:262.14kb/s
+[2022-04-17 21:12:34][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 30.00 MB speed:209.72kb/s
+[2022-04-17 21:12:44][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 32.00 MB speed:233.02kb/s
+[2022-04-17 21:12:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 33.00 MB speed:262.14kb/s
+[2022-04-17 21:12:52][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 34.00 MB speed:262.14kb/s
+[2022-04-17 21:12:56][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 35.00 MB speed:262.14kb/s
+[2022-04-17 21:13:01][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 36.00 MB speed:209.72kb/s
+[2022-04-17 21:13:05][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 37.00 MB speed:262.14kb/s
+[2022-04-17 21:13:09][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 38.00 MB speed:262.14kb/s
+[2022-04-17 21:13:13][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 39.00 MB speed:262.14kb/s
+[2022-04-17 21:13:17][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 40.00 MB speed:262.14kb/s
+[2022-04-17 21:13:22][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 41.00 MB speed:209.72kb/s
+[2022-04-17 21:13:26][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 42.00 MB speed:262.14kb/s
+[2022-04-17 21:13:30][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 43.00 MB speed:262.14kb/s
+[2022-04-17 21:13:34][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 44.00 MB speed:262.14kb/s
+[2022-04-17 21:13:41][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 45.00 MB speed:149.8kb/s
+[2022-04-17 21:13:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 46.00 MB speed:149.8kb/s
+[2022-04-17 21:13:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 47.00 MB speed:174.76kb/s
+[2022-04-17 21:14:03][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip Total size: 49.00 MB Uploaded: 49.00 MB speed:232.72kb/s
+[2022-04-17 21:14:03][notice]Finished uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part001.zip
+[2022-04-17 21:14:03][notice]Start uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip
+[2022-04-17 21:14:03][notice]Check if the server already has the same name file.
+[2022-04-17 21:14:04][notice]Initiate a resumable upload session.
+[2022-04-17 21:14:08][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 1.00 MB speed:209.72kb/s
+[2022-04-17 21:14:13][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 2.00 MB speed:209.72kb/s
+[2022-04-17 21:14:18][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 3.00 MB speed:209.72kb/s
+[2022-04-17 21:14:25][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 5.00 MB speed:299.59kb/s
+[2022-04-17 21:14:29][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 6.00 MB speed:262.14kb/s
+[2022-04-17 21:14:33][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 7.00 MB speed:262.14kb/s
+[2022-04-17 21:14:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 8.00 MB speed:262.14kb/s
+[2022-04-17 21:14:41][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 9.00 MB speed:262.14kb/s
+[2022-04-17 21:14:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 10.00 MB speed:149.8kb/s
+[2022-04-17 21:14:55][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 12.00 MB speed:299.59kb/s
+[2022-04-17 21:14:59][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 13.00 MB speed:262.14kb/s
+[2022-04-17 21:15:03][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 14.00 MB speed:262.14kb/s
+[2022-04-17 21:15:10][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 16.00 MB speed:299.59kb/s
+[2022-04-17 21:15:14][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 17.00 MB speed:262.14kb/s
+[2022-04-17 21:15:19][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 18.00 MB speed:209.72kb/s
+[2022-04-17 21:15:26][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 20.00 MB speed:299.59kb/s
+[2022-04-17 21:15:33][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 22.00 MB speed:299.59kb/s
+[2022-04-17 21:15:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 23.00 MB speed:262.14kb/s
+[2022-04-17 21:15:41][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 24.00 MB speed:262.14kb/s
+[2022-04-17 21:15:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 26.00 MB speed:299.59kb/s
+[2022-04-17 21:15:57][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 28.00 MB speed:262.14kb/s
+[2022-04-17 21:16:02][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 29.00 MB speed:209.72kb/s
+[2022-04-17 21:16:06][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 30.00 MB speed:262.14kb/s
+[2022-04-17 21:16:13][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 32.00 MB speed:299.59kb/s
+[2022-04-17 21:16:20][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 34.00 MB speed:299.59kb/s
+[2022-04-17 21:16:24][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 35.00 MB speed:262.14kb/s
+[2022-04-17 21:16:28][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 36.00 MB speed:262.14kb/s
+[2022-04-17 21:16:32][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 37.00 MB speed:262.14kb/s
+[2022-04-17 21:16:40][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 39.00 MB speed:299.59kb/s
+[2022-04-17 21:16:44][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 40.00 MB speed:262.14kb/s
+[2022-04-17 21:16:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 41.00 MB speed:262.14kb/s
+[2022-04-17 21:16:52][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 42.00 MB speed:262.14kb/s
+[2022-04-17 21:16:56][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 43.00 MB speed:262.14kb/s
+[2022-04-17 21:17:02][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 44.00 MB speed:174.76kb/s
+[2022-04-17 21:17:07][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 45.00 MB speed:209.72kb/s
+[2022-04-17 21:17:14][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 47.00 MB speed:299.59kb/s
+[2022-04-17 21:17:19][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 48.00 MB speed:262.14kb/s
+[2022-04-17 21:17:24][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 49.00 MB speed:209.72kb/s
+[2022-04-17 21:17:28][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 50.00 MB speed:262.14kb/s
+[2022-04-17 21:17:33][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 51.00 MB speed:262.14kb/s
+[2022-04-17 21:17:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 52.00 MB speed:262.14kb/s
+[2022-04-17 21:17:42][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 53.00 MB speed:262.14kb/s
+[2022-04-17 21:17:47][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 54.00 MB speed:209.72kb/s
+[2022-04-17 21:17:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 56.00 MB speed:299.59kb/s
+[2022-04-17 21:18:03][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 58.00 MB speed:233.02kb/s
+[2022-04-17 21:18:08][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 59.00 MB speed:209.72kb/s
+[2022-04-17 21:18:12][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 60.00 MB speed:262.14kb/s
+[2022-04-17 21:18:16][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 61.00 MB speed:262.14kb/s
+[2022-04-17 21:18:21][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 62.00 MB speed:209.72kb/s
+[2022-04-17 21:18:28][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 64.00 MB speed:299.59kb/s
+[2022-04-17 21:18:34][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 65.00 MB speed:174.76kb/s
+[2022-04-17 21:18:41][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 67.00 MB speed:299.59kb/s
+[2022-04-17 21:18:45][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 68.00 MB speed:262.14kb/s
+[2022-04-17 21:18:50][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 69.00 MB speed:209.72kb/s
+[2022-04-17 21:18:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 70.00 MB speed:262.14kb/s
+[2022-04-17 21:18:59][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 71.00 MB speed:209.72kb/s
+[2022-04-17 21:19:07][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 73.00 MB speed:299.59kb/s
+[2022-04-17 21:19:14][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 75.00 MB speed:299.59kb/s
+[2022-04-17 21:19:18][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 76.00 MB speed:262.14kb/s
+[2022-04-17 21:19:22][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 77.00 MB speed:262.14kb/s
+[2022-04-17 21:19:26][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 78.00 MB speed:262.14kb/s
+[2022-04-17 21:19:32][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 79.00 MB speed:209.72kb/s
+[2022-04-17 21:19:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 80.00 MB speed:209.72kb/s
+[2022-04-17 21:19:45][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 82.00 MB speed:299.59kb/s
+[2022-04-17 21:19:49][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 83.00 MB speed:262.14kb/s
+[2022-04-17 21:19:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 84.00 MB speed:209.72kb/s
+[2022-04-17 21:20:05][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 85.00 MB speed:104.86kb/s
+[2022-04-17 21:20:12][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 86.00 MB speed:149.8kb/s
+[2022-04-17 21:20:18][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 87.00 MB speed:174.76kb/s
+[2022-04-17 21:20:22][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 88.00 MB speed:262.14kb/s
+[2022-04-17 21:20:26][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 89.00 MB speed:262.14kb/s
+[2022-04-17 21:20:30][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 90.00 MB speed:262.14kb/s
+[2022-04-17 21:20:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 92.00 MB speed:299.59kb/s
+[2022-04-17 21:20:42][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 93.00 MB speed:209.72kb/s
+[2022-04-17 21:20:48][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 94.00 MB speed:209.72kb/s
+[2022-04-17 21:20:54][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 95.00 MB speed:209.72kb/s
+[2022-04-17 21:21:01][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 97.00 MB speed:299.59kb/s
+[2022-04-17 21:21:05][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 98.00 MB speed:262.14kb/s
+[2022-04-17 21:21:09][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 99.00 MB speed:262.14kb/s
+[2022-04-17 21:21:14][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 100.00 MB speed:209.72kb/s
+[2022-04-17 21:21:18][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 101.00 MB speed:262.14kb/s
+[2022-04-17 21:21:22][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 102.00 MB speed:262.14kb/s
+[2022-04-17 21:21:27][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 103.00 MB speed:209.72kb/s
+[2022-04-17 21:21:31][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 104.00 MB speed:262.14kb/s
+[2022-04-17 21:21:37][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 105.00 MB speed:174.76kb/s
+[2022-04-17 21:21:44][notice]Uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip Total size: 106.84 MB Uploaded: 106.84 MB speed:275.01kb/s
+[2022-04-17 21:21:44][notice]Finished uploading localhost_wordpress_wpvivid-625c802029524_2022-04-17-21-01_backup_all.part002.zip
+[2022-04-17 21:21:44][notice]Cleaned up local files after uploading to remote storages.
+[2022-04-17 21:21:44][notice]Upload succeeded.
